@@ -22,10 +22,11 @@
   },
   "homepage": "https://github.com/ventose-floreal/complatform-client#readme",
   "devDependencies": {
-    "prettier": "^2.2.1",
+    "cross-env": "^7.0.3",
     "electron": "22.0.2",
     "electron-builder": "23.6.0",
     "electron-reload": "2.0.0-alpha.1",
-    "electron-reloader": "1.2.3"
+    "electron-reloader": "1.2.3",
+    "prettier": "^2.2.1"
   }
 }
