@@ -1,0 +1,31 @@
+{
+  "name": "complatform-client",
+  "version": "1.0.0",
+  "description": "complatform的客户端，内网通信所需",
+  "main": "./electron/main.js",
+  "scripts": {
+    "preview": "electron .",
+    "dev": "cross-env ELECTRON_RELOADER=ELECTRON_RELOADER electron .",
+    "i": "npm install -g asar",
+    "lint": "prettier --write .",
+    "asar": "asar extract app.asar ./",
+    "pack": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ventose-floreal/complatform-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ventose-floreal/complatform-client/issues"
+  },
+  "homepage": "https://github.com/ventose-floreal/complatform-client#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "electron": "22.0.2",
+    "electron-builder": "23.6.0",
+    "electron-reload": "2.0.0-alpha.1",
+    "electron-reloader": "1.2.3"
+  }
+}

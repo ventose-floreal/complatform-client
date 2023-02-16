@@ -1,0 +1,4 @@
+exports.events = {
+  CHANGE_PORT: 'CHANGE_PORT',
+  NOTIFICATION: 'NOTIFICATION'
+};
