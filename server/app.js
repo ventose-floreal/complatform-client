@@ -100,3 +100,4 @@ if (process.send) {
   process.send(JSON.stringify({ type: 'CHANGE_PORT', PORT }));
 }
 console.log('Server running at port: ' + PORT + '.');
+wconsole.log(`http://localhost:${PORT}`);
